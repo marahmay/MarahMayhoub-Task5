@@ -1,0 +1,12 @@
+.show{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 300px;
+}
+
+.show .theImg{
+  width: 200px;
+  /* height: 300px; */
+}

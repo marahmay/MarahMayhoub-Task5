@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: whitesmoke;
+}
+
+.container .search-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container .search-input input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+    outline: none;
+}
+
+.container .search-input button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.container .products {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: cursive;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.container .products .product-card {
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 2px 2px rgb(97, 93, 93);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .products .product-card .imgbtn {
+   cursor: pointer;
+   width: 100%;
+   height: 40%;
+   border: none;
+}
+
+.container .products .product-card .imgbtn .theImg {
+    width: 100%;
+    height: 100%;
+}
+
+
+.container .products .product-card .brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px 0 0 0; */
+
+}
+
+.container .products .product-card .brand h1{
+    font-size: 22px;
+    color: lightseagreen;
+}
+
+.container .products .product-card .brand span{
+    font-size: 22px;
+    color: rgb(77, 74, 74);
+}
+
+
+.container .products .product-card .divBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+}
+
+
+.container .products .product-card .details h3{
+    margin-top: 10px;
+}
+
+.container .products .product-card .details p {
+    text-align: justify;
+    word-wrap:break-word;
+}
+
+
+.leftPrice{
+    color: red;
+    font-weight: bold;
+}
+.slider{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    /* margin: 30px 0px; */
+    margin: auto;
+}
+
+.slider span{
+    border-radius:10px 90px;
+    padding: 15px;
+    background-color: rgb(235, 180, 180);
+    /* color: white; */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+     margin: 50px 0px;
+
+}
+
+.slider span .active{
+background-color: whitesmoke;
+  /* pointer-events: none; */
+
+}
+
+.rebtn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-family: cursive;
+    font-weight: bold;
+}
